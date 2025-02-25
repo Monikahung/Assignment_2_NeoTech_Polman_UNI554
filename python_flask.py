@@ -47,4 +47,4 @@ def save_sensor_data():
 # Jalankan server Flask
 if __name__ == '__main__':
     # Konfigurasi host sesuai dengan IPv4 Address dan port sesuai keinginan
-    app.run(host="192.168.43.70", debug=True, port=7000)
+    app.run(host="192.168.249.70", debug=True, port=7000)

@@ -83,7 +83,7 @@ def send_data_to_ubidots(temperature, humidity, motion):
 # Fungsi untuk menerima data sensor dan mengirimkannya ke API Services yang terhubung dengan MongoDB
 def send_data_to_server(temperature, humidity, motion, timestamp):
     # URL (API Services) untuk mengirimkan data ke MongoDB
-    url = "http://192.168.43.70:7000/data" # Gunakan IPv4 Address
+    url = "http://192.168.249.70:7000/data" # Gunakan IPv4 Address
     
     # Header terkait tipe konten
     headers = {"Content-Type": "application/json"}
